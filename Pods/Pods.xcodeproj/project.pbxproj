@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BF1FEEC2F126E2E39ECB1DF /* SIOSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B827FA50AABEAE61A6D663E7 /* SIOSocket.m */; };
+		2F0294C5771B1780FBFEC2DF /* SIOSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F06449DAE4C2A44B5C854B /* SIOSocket.h */; };
+		385D4592E1E115625819269B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39D94EEAAC5EFF49CCB795A /* Foundation.framework */; };
+		692C0E42D4769821AF69B5E1 /* Pods-civiloution-SIOSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 279F256CF4A53161ACD0875C /* Pods-civiloution-SIOSocket-dummy.m */; };
+		8EA634BD0328C0D4FDD70C00 /* socket.io.js.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B43B4487BF9701147B7364 /* socket.io.js.h */; };
+		A32AD482F72E42733ADEE385 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39D94EEAAC5EFF49CCB795A /* Foundation.framework */; };
+		C6EFDA6229F7F45D02628385 /* Pods-civiloution-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE5775F05A263CB3FEC33D4 /* Pods-civiloution-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89AD36256DD03D028E4682B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35C7DF79D8A4E7240C941FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E57ECB6B029858F0872EFE4E;
+			remoteInfo = "Pods-civiloution-SIOSocket";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14703DA3A67C3477EB9CD12C /* Pods-civiloution-SIOSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-civiloution-SIOSocket-prefix.pch"; sourceTree = "<group>"; };
+		239B68ADC0A8B586EC4A213F /* Pods-civiloution-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-civiloution-environment.h"; sourceTree = "<group>"; };
+		279F256CF4A53161ACD0875C /* Pods-civiloution-SIOSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-civiloution-SIOSocket-dummy.m"; sourceTree = "<group>"; };
+		408BBEE5DE47D849FDAB75A6 /* Pods-civiloution-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-civiloution-acknowledgements.plist"; sourceTree = "<group>"; };
+		48EBDF7501325A63846142D9 /* Pods-civiloution.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-civiloution.debug.xcconfig"; sourceTree = "<group>"; };
+		53B43B4487BF9701147B7364 /* socket.io.js.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = socket.io.js.h; path = SocketIO/Source/socket.io.js.h; sourceTree = "<group>"; };
+		568C2EF9F7575DEA8FA1ACE1 /* Pods-civiloution-SIOSocket-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-civiloution-SIOSocket-Private.xcconfig"; sourceTree = "<group>"; };
+		63C5AF2F7092201AFEB77D1B /* Pods-civiloution-SIOSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-civiloution-SIOSocket.xcconfig"; sourceTree = "<group>"; };
+		6A34987C9B52A8B3E21E49EF /* libPods-civiloution-SIOSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-civiloution-SIOSocket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71845EBF58D412A35E4B7C2F /* Pods-civiloution.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-civiloution.release.xcconfig"; sourceTree = "<group>"; };
+		A2608602190A07468D9B9E6B /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4C94BDB2602FB797C307BC4 /* Pods-civiloution-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-civiloution-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A868BC2C61E89A90AB27CFB3 /* Pods-civiloution-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-civiloution-resources.sh"; sourceTree = "<group>"; };
+		AFE5775F05A263CB3FEC33D4 /* Pods-civiloution-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-civiloution-dummy.m"; sourceTree = "<group>"; };
+		B39D94EEAAC5EFF49CCB795A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B827FA50AABEAE61A6D663E7 /* SIOSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SIOSocket.m; path = SocketIO/Source/SIOSocket.m; sourceTree = "<group>"; };
+		EC4FD8A689DA83B157329A07 /* libPods-civiloution.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-civiloution.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F06449DAE4C2A44B5C854B /* SIOSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIOSocket.h; path = SocketIO/Source/SIOSocket.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C952A38A23E0476DF7DA01D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385D4592E1E115625819269B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4FB9552B5CEFE2C891E043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32AD482F72E42733ADEE385 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E953D7F6B8FAA3A3D08DE47 /* SIOSocket */ = {
+			isa = PBXGroup;
+			children = (
+				F5F06449DAE4C2A44B5C854B /* SIOSocket.h */,
+				B827FA50AABEAE61A6D663E7 /* SIOSocket.m */,
+				53B43B4487BF9701147B7364 /* socket.io.js.h */,
+				B0D845E658D002F26CB3CA23 /* Support Files */,
+			);
+			path = SIOSocket;
+			sourceTree = "<group>";
+		};
+		3974EED9ABBC2B49FFB9673D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3BE58F182C94BC9638336EC /* Pods-civiloution */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4A4031554EFC3239D863ACB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD5C2927160A2E352B9970DD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59FA38D32217D9687DFBA61C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E953D7F6B8FAA3A3D08DE47 /* SIOSocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		781E8DEC7EF1ABDF9542A089 = {
+			isa = PBXGroup;
+			children = (
+				A2608602190A07468D9B9E6B /* Podfile */,
+				4A4031554EFC3239D863ACB4 /* Frameworks */,
+				59FA38D32217D9687DFBA61C /* Pods */,
+				D0E5ADFEE0108D370FC35482 /* Products */,
+				3974EED9ABBC2B49FFB9673D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AD5C2927160A2E352B9970DD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B39D94EEAAC5EFF49CCB795A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B0D845E658D002F26CB3CA23 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63C5AF2F7092201AFEB77D1B /* Pods-civiloution-SIOSocket.xcconfig */,
+				568C2EF9F7575DEA8FA1ACE1 /* Pods-civiloution-SIOSocket-Private.xcconfig */,
+				279F256CF4A53161ACD0875C /* Pods-civiloution-SIOSocket-dummy.m */,
+				14703DA3A67C3477EB9CD12C /* Pods-civiloution-SIOSocket-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-civiloution-SIOSocket";
+			sourceTree = "<group>";
+		};
+		C3BE58F182C94BC9638336EC /* Pods-civiloution */ = {
+			isa = PBXGroup;
+			children = (
+				A4C94BDB2602FB797C307BC4 /* Pods-civiloution-acknowledgements.markdown */,
+				408BBEE5DE47D849FDAB75A6 /* Pods-civiloution-acknowledgements.plist */,
+				AFE5775F05A263CB3FEC33D4 /* Pods-civiloution-dummy.m */,
+				239B68ADC0A8B586EC4A213F /* Pods-civiloution-environment.h */,
+				A868BC2C61E89A90AB27CFB3 /* Pods-civiloution-resources.sh */,
+				48EBDF7501325A63846142D9 /* Pods-civiloution.debug.xcconfig */,
+				71845EBF58D412A35E4B7C2F /* Pods-civiloution.release.xcconfig */,
+			);
+			name = "Pods-civiloution";
+			path = "Target Support Files/Pods-civiloution";
+			sourceTree = "<group>";
+		};
+		D0E5ADFEE0108D370FC35482 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC4FD8A689DA83B157329A07 /* libPods-civiloution.a */,
+				6A34987C9B52A8B3E21E49EF /* libPods-civiloution-SIOSocket.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B8A44ED1ABF3BC9369018AE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0294C5771B1780FBFEC2DF /* SIOSocket.h in Headers */,
+				8EA634BD0328C0D4FDD70C00 /* socket.io.js.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		89575748E112CC4FE7897435 /* Pods-civiloution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7ED0BCB320CFA123831FF09 /* Build configuration list for PBXNativeTarget "Pods-civiloution" */;
+			buildPhases = (
+				A220B5149D5EC807A8109AF4 /* Sources */,
+				C952A38A23E0476DF7DA01D7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				342B444A2733330D324AF5C9 /* PBXTargetDependency */,
+			);
+			name = "Pods-civiloution";
+			productName = "Pods-civiloution";
+			productReference = EC4FD8A689DA83B157329A07 /* libPods-civiloution.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E57ECB6B029858F0872EFE4E /* Pods-civiloution-SIOSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C52EC2BCC6747F3CD8B87AE /* Build configuration list for PBXNativeTarget "Pods-civiloution-SIOSocket" */;
+			buildPhases = (
+				DD1E9EBFAA12050166846CF5 /* Sources */,
+				DF4FB9552B5CEFE2C891E043 /* Frameworks */,
+				B8A44ED1ABF3BC9369018AE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-civiloution-SIOSocket";
+			productName = "Pods-civiloution-SIOSocket";
+			productReference = 6A34987C9B52A8B3E21E49EF /* libPods-civiloution-SIOSocket.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35C7DF79D8A4E7240C941FDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 54C622F3B9040E966CC4870D /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 781E8DEC7EF1ABDF9542A089;
+			productRefGroup = D0E5ADFEE0108D370FC35482 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89575748E112CC4FE7897435 /* Pods-civiloution */,
+				E57ECB6B029858F0872EFE4E /* Pods-civiloution-SIOSocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A220B5149D5EC807A8109AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6EFDA6229F7F45D02628385 /* Pods-civiloution-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1E9EBFAA12050166846CF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692C0E42D4769821AF69B5E1 /* Pods-civiloution-SIOSocket-dummy.m in Sources */,
+				2BF1FEEC2F126E2E39ECB1DF /* SIOSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		342B444A2733330D324AF5C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-civiloution-SIOSocket";
+			target = E57ECB6B029858F0872EFE4E /* Pods-civiloution-SIOSocket */;
+			targetProxy = 89AD36256DD03D028E4682B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		83A4E8202D6EBEB425B2EACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71845EBF58D412A35E4B7C2F /* Pods-civiloution.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		98C3D5A3320C72417FF5F436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A65C941AFA056862B98285CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 568C2EF9F7575DEA8FA1ACE1 /* Pods-civiloution-SIOSocket-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-civiloution-SIOSocket/Pods-civiloution-SIOSocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E28A4B638AAB3685F6EFC88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E727930BBC016AD041FB8AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48EBDF7501325A63846142D9 /* Pods-civiloution.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F7EDE3E9430CC45C40E37D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 568C2EF9F7575DEA8FA1ACE1 /* Pods-civiloution-SIOSocket-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-civiloution-SIOSocket/Pods-civiloution-SIOSocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C52EC2BCC6747F3CD8B87AE /* Build configuration list for PBXNativeTarget "Pods-civiloution-SIOSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7EDE3E9430CC45C40E37D45 /* Debug */,
+				A65C941AFA056862B98285CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C622F3B9040E966CC4870D /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98C3D5A3320C72417FF5F436 /* Debug */,
+				E28A4B638AAB3685F6EFC88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7ED0BCB320CFA123831FF09 /* Build configuration list for PBXNativeTarget "Pods-civiloution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E727930BBC016AD041FB8AA7 /* Debug */,
+				83A4E8202D6EBEB425B2EACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35C7DF79D8A4E7240C941FDB /* Project object */;
+}
