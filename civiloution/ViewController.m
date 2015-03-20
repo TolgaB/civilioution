@@ -36,7 +36,7 @@
     questionsArray = [[NSMutableArray alloc] init];
     voteArray = [[NSMutableArray alloc] init];
     
-    [SIOSocket socketWithHost: @"http://127.0.0.1:3000" response: ^(SIOSocket *socket)
+    [SIOSocket socketWithHost: @"http://45.55.138.146:3000" response: ^(SIOSocket *socket)
      {
          self.socket = socket;
          

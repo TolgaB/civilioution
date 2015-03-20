@@ -30,6 +30,7 @@ comments5[0] = "This is my random opinion";
 comments6[0] = "This is my random opinion";
 comments7[0] = "This is my random opinion";
 comments8[0] = "This is my random opinion";
+
 io.on('connection', function (socket) {
 
 
@@ -38,7 +39,7 @@ io.on('connection', function (socket) {
 
 	io.sockets.emit('join', socket['id']);
 	 console.log(socket['id'] + ' has connected!');
-
+	console.log("test5")
 	io.sockets.emit('sendBeginData', questionList, voteList);
 
 	io.sockets.emit('joinOnComment');

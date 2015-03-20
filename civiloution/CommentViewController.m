@@ -26,6 +26,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [commentTextField addTarget:commentTextField
+                  action:@selector(resignFirstResponder)
+        forControlEvents:UIControlEventEditingDidEndOnExit];
+    
     commentsArray = [[NSMutableArray alloc] init];
     
     NSString *tempQuestionString = [[NSUserDefaults standardUserDefaults] objectForKey:@"questionToRetrieveComments"];
@@ -38,7 +42,7 @@
     [self.view addSubview:titleLabel];
     
     
-    [SIOSocket socketWithHost: @"http://127.0.0.1:3000" response: ^(SIOSocket *socket)
+    [SIOSocket socketWithHost: @"http://45.55.138.146:3000" response: ^(SIOSocket *socket)
      {
          self.socket = socket;
          
